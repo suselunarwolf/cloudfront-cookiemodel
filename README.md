@@ -1,6 +1,8 @@
 # cloudfront-cookiemodel
 cloudfront-lambdA edge and s3
 
+use case:
+user want to run the new UI but he not sure how the people respond to it ,so we created an lambda edghe function which takes cookies  and allow the user to  to new or old page UI without using fifferen domain or even redirect. 
 
 old application is in S3 bucket,so does the new s3 bucket
 Both the S# buckets are static webhosting is enabled so both are public,we have cloudfront distribution which will do all the cahing,
